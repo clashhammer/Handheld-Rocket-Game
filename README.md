@@ -10,14 +10,14 @@ Parts you need for this project are:
 - 1 development board
 
 Pinout varies for every display type and you might need to change it depending on the screen you use. For my project the pinout is as it goes
--GND - GND
--VDD+BLK - 5V
--SCL - D13
--SDA - D11
--RST - D9
--DC - D8
--CS - D10
--Button UP - D2
+- GND - GND
+- VDD+BLK - 5V
+- SCL - D13
+- SDA - D11
+- RST - D9
+- DC - D8
+- CS - D10
+- Button UP - D2
 - Button DOWN - D3
 - Button FIRE - D4
 - Buzzer - D7
