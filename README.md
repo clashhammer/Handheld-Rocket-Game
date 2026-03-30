@@ -7,7 +7,7 @@ Parts you need for this project are:
 - 1 buzzer
 - 3 push buttons
 - several cables (whatever you like)
-- 1 development board
+- 1 development board / breadboard
 
 Pinout varies for every display type and you might need to change it depending on the screen you use. For my project the pinout is as it goes
 - GND - GND
