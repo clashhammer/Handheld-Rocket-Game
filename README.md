@@ -24,3 +24,5 @@ Pinout varies for every display type and you might need to change it depending o
 
 
 Hope you like my project! :)
+
+<img width="1249" height="1601" alt="image" src="https://github.com/user-attachments/assets/d9e642f4-5f73-4d05-a670-ac59f2fe43c4" />
