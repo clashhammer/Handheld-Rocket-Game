@@ -1,28 +1,81 @@
-# Handheld-Rocket-Game
-An 8 bit arduino game that you shoot school curriculum subjects disguised as meteors, as a rocket pilot in space. The game features dopamine inducing shooter elements while having oxytocin spiking abilities from shooting every subject you don’t like in school (or maybe you do :) ) Enjoy!
+# Handheld Rocket Game 🚀
 
-Parts you need for this project are:
-- 1 Arduino Nano
-- 1 128x160 TFT Display that supports the ST7735 library (or any lcd/tft/oled, you can change resolution and driver library in the code)
-- 1 buzzer
-- 3 push buttons
-- several cables (whatever you like)
-- 1 development board / breadboard
+A small handheld Arduino game where you pilot a rocket through space and shoot school subjects disguised as meteors.
 
-Pinout varies for every display type and you might need to change it depending on the screen you use. For my project the pinout is as it goes
-- GND - GND
-- VDD+BLK - 5V
-- SCL - D13
-- SDA - D11
-- RST - D9
-- DC - D8
-- CS - D10
-- Button UP - D2
-- Button DOWN - D3
-- Button FIRE - D4
-- Buzzer - D7
+The game uses simple shooter mechanics, physical buttons, a TFT display, and a buzzer for sound effects. Your goal is simple: survive, shoot the subjects you don't like, and get the highest score you can. :)
 
+## Main Parts
 
-Hope you like my project! :)
+| Quantity | Part |
+|---:|---|
+| 1x | Arduino Nano |
+| 1x | 1.8" 128×160 TFT Display (ST7735) |
+| 1x | Buzzer |
+| 3x | Push Buttons |
+| Several | Jumper Wires |
+| 1x | Breadboard / Perfboard |
 
-<img width="1249" height="1601" alt="image" src="https://github.com/user-attachments/assets/d9e642f4-5f73-4d05-a670-ac59f2fe43c4" />
+> Other displays can also be used, but you may need to change the resolution, pin configuration, and display library in the code.
+
+## Pinout
+
+The exact pinout may vary depending on the display you use.
+
+For my build, the connections are:
+
+| Component | Arduino Pin |
+|---|---|
+| GND | GND |
+| VDD / BLK | 5V |
+| SCL | D13 |
+| SDA | D11 |
+| RST | D9 |
+| DC | D8 |
+| CS | D10 |
+| Button UP | D2 |
+| Button DOWN | D3 |
+| Button FIRE | D4 |
+| Buzzer | D7 |
+
+## Controls
+
+| Button | Action |
+|---|---|
+| UP | Move the rocket up |
+| DOWN | Move the rocket down |
+| FIRE | Shoot |
+
+## Display
+
+The project was designed around a **128×160 ST7735 TFT display**.
+
+If you use a different TFT, LCD, or OLED display, you will probably need to modify:
+
+- Display library
+- Screen resolution
+- Pin definitions
+- Drawing coordinates in the code
+
+## Build
+
+The circuit can first be assembled on a breadboard for testing before being moved into a more permanent handheld enclosure.
+
+## Wiring Schematic
+
+The following schematic shows the wiring between the Arduino Nano, ST7735 display, control buttons, and buzzer.
+
+<img width="830" height="879" alt="Screenshot 2026-10-01 230515" src="https://github.com/user-attachments/assets/d74b3abc-c221-44f5-bf0a-ebf2f803d59f" />
+
+## Project Photo
+
+<img
+  src="https://github.com/user-attachments/assets/d9e642f4-5f73-4d05-a670-ac59f2fe43c4"
+  alt="Handheld Rocket Game"
+  width="600"
+/>
+
+---
+
+Make sure to watch the video in YouTube! https://www.youtube.com/watch?v=62NKlN6i7YI<br><br><br>
+Hope you enjoy the project! 🚀
+
